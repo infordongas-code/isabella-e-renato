@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto de Vida: sonhos, metas e caminhos de Isabella e Renato.">
+  <title>Projeto de Vida | Isabella & Renato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <nav class="nav container">
+      <a class="logo" href="#inicio">MEU <span>FUTURO</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+      <ul class="menu" id="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#projetos">Projetos de vida</a></li>
+        <li><a href="#metas">Metas</a></li>
+        <li><a href="#inspiracao">Inspiração</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-content">
+        <p class="tag">PLANEJAR • ACREDITAR • REALIZAR</p>
+        <h1>O futuro começa<br><span>com uma escolha.</span></h1>
+        <p class="hero-text">Cada sonho é o primeiro passo de uma grande conquista. Conheça os projetos de vida de Isabella e Renato e inspire-se a construir o seu também.</p>
+        <a class="btn" href="#projetos">Conhecer os projetos <span>→</span></a>
+      </div>
+      <div class="hero-shape shape-one"></div>
+      <div class="hero-shape shape-two"></div>
+    </section>
+
+    <section class="intro section container">
+      <p class="tag">NOSSO PROPÓSITO</p>
+      <h2>Ter um objetivo dá sentido<br>à nossa caminhada.</h2>
+      <p class="muted">Projeto de vida é pensar em quem queremos ser, definir objetivos e transformar sonhos em atitudes. Com dedicação, estudo e persistência, podemos chegar mais longe.</p>
+    </section>
+
+    <section class="profiles section" id="projetos">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="tag">SONHOS EM CONSTRUÇÃO</p><h2>Dois caminhos,<br>muitas possibilidades.</h2></div>
+          <p class="muted side-note">Conheça as profissões que Isabella e Renato desejam seguir e os passos que podem ajudá-los a alcançar seus objetivos.</p>
+        </div>
+        <div class="cards">
+          <article class="profile-card isabella">
+            <div class="card-top">
+              <span class="number">01 / JUSTIÇA</span>
+              <span class="icon">⚖</span>
+            </div>
+            <p class="role">FUTURA PROFISSIONAL</p>
+            <h3>Isabella</h3>
+            <h4>Advogada</h4>
+            <p class="description">Isabella sonha em atuar na área do Direito, defender direitos, orientar pessoas e contribuir para uma sociedade mais justa.</p>
+            <div class="divider"></div>
+            <h5>Seu plano de ação</h5>
+            <ul>
+              <li>Dedicar-se aos estudos e concluir o ensino médio.</li>
+              <li>Ingressar em uma faculdade de Direito.</li>
+              <li>Desenvolver comunicação, ética e argumentação.</li>
+              <li>Concluir o curso e ser aprovada no exame da OAB.</li>
+            </ul>
+            <div class="quote">“A justiça começa quando escolhemos fazer a diferença.”</div>
+          </article>
+
+          <article class="profile-card renato">
+            <div class="card-top">
+              <span class="number">02 / INOVAÇÃO</span>
+              <span class="icon">↗</span>
+            </div>
+            <p class="role">FUTURO PROFISSIONAL</p>
+            <h3>Renato</h3>
+            <h4>Empresário</h4>
+            <p class="description">Renato deseja abrir e administrar seu próprio negócio, criar oportunidades, inovar e oferecer produtos ou serviços de qualidade.</p>
+            <div class="divider"></div>
+            <h5>Seu plano de ação</h5>
+            <ul>
+              <li>Estudar administração, finanças e empreendedorismo.</li>
+              <li>Identificar uma boa ideia de negócio.</li>
+              <li>Aprender a planejar, liderar e trabalhar em equipe.</li>
+              <li>Organizar recursos e desenvolver sua empresa.</li>
+            </ul>
+            <div class="quote">“Grandes negócios começam com ideias e coragem para agir.”</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container goals" id="metas">
+      <div class="section-heading">
+        <div><p class="tag">PASSO A PASSO</p><h2>Metas que aproximam<br>o sonho da realidade.</h2></div>
+        <p class="muted side-note">Marque as etapas concluídas e acompanhe o progresso dos objetivos.</p>
+      </div>
+      <div class="goal-panel">
+        <div class="goal-column">
+          <div class="goal-title"><span class="dot purple"></span><h3>Isabella — Direito</h3></div>
+          <label class="check"><input type="checkbox"> Organizar uma rotina de estudos</label>
+          <label class="check"><input type="checkbox"> Pesquisar faculdades de Direito</label>
+          <label class="check"><input type="checkbox"> Conhecer áreas de atuação jurídica</label>
+          <label class="check"><input type="checkbox"> Planejar a preparação para a OAB</label>
+        </div>
+        <div class="goal-column">
+          <div class="goal-title"><span class="dot orange"></span><h3>Renato — Empreendedorismo</h3></div>
+          <label class="check"><input type="checkbox"> Pesquisar ideias de negócio</label>
+          <label class="check"><input type="checkbox"> Aprender educação financeira</label>
+          <label class="check"><input type="checkbox"> Criar um plano de negócios</label>
+          <label class="check"><input type="checkbox"> Planejar o início da empresa</label>
+        </div>
+      </div>
+      <p class="progress-label">Progresso das metas: <strong id="progressText">0%</strong></p>
+      <div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+    </section>
+
+    <section class="inspiration section" id="inspiracao">
+      <div class="container inspiration-content">
+        <p class="tag">ACREDITE NO PROCESSO</p>
+        <h2>Não é só sobre onde<br>queremos chegar. É sobre<br><span>quem nos tornamos.</span></h2>
+        <p>O sucesso é construído com pequenas atitudes diárias. Aprender, persistir, respeitar as pessoas e acreditar no próprio potencial faz parte de qualquer projeto de vida.</p>
+        <button class="btn btn-light" id="phraseButton">Ver frase inspiradora ↗</button>
+        <p class="phrase" id="phrase">“O primeiro passo para realizar um sonho é acreditar que ele é possível.”</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a class="logo" href="#inicio">MEU <span>FUTURO</span></a>
+      <p>Projeto escolar • Projeto de Vida</p>
+      <p>Isabella — futura advogada | Renato — futuro empresário</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

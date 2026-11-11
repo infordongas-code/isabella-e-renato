@@ -1,0 +1,25 @@
+PROJETO DE VIDA — ISABELLA E RENATO
+=====================================
+
+CONTEÚDO
+- index.html: estrutura do site.
+- style.css: cores, fontes, organização e responsividade.
+- script.js: menu mobile, metas com barra de progresso e frases inspiradoras.
+
+COMO EXTRAIR E ABRIR NO VISUAL STUDIO CODE (VS CODE)
+1. Baixe o arquivo ZIP.
+2. No Windows, clique com o botão direito no ZIP e escolha "Extrair tudo...".
+3. Abra o Visual Studio Code.
+4. Clique em Arquivo > Abrir Pasta.
+5. Selecione a pasta extraída: projeto_vida_isabella_renato.
+6. Abra o arquivo index.html.
+7. Para visualizar, clique duas vezes no index.html ou use a extensão Live Server
+   (clique com o botão direito no index.html > Open with Live Server).
+
+OBSERVAÇÕES
+- O projeto funciona sem instalação de bibliotecas.
+- É possível editar textos, nomes, cores e metas diretamente nos arquivos.
+- As metas marcadas atualizam a porcentagem automaticamente.
+- O site se adapta a computadores e celulares.
+
+Projeto demonstrativo para atividade escolar.
